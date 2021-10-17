@@ -1,0 +1,334 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {"tag": "hikkaduwa",
+      "patterns": [
+        "Hey Jessie, can I get the contact number of Hikkaduwa police station.",
+        "what is the number of hikkaduwa police station?",
+        "can i know the hikkaduwa police station number?",
+        "hikkaduwa police station phone number?"],
+      "responses": [
+        "Here it is 091 223 2312.",
+        "The number is 091 223 2312. anything you need to know?",
+        "Hikkaduwa Police Station - 091 223 2312 "]
+    },
+    {"tag": "hikkaduwa-french",
+      "patterns": [
+        "Hey Jessie, puis-je obtenir le numéro de contact du poste de police de Hikkaduwa.",
+        "quel est le numéro du poste de police de hikkaduwa ?",
+        "puis-je connaître le numéro du poste de police de Hikkaduwa ?",
+        "numéro de téléphone du poste de police de hikkaduwa ?"  ],
+
+      "responses": [
+        "Ici, il s'agit du 091 223 2312.",
+        "Le numéro est le 091 223 2312. quelque chose que vous devez savoir ?",
+        "Poste de police de Hikkaduwa - 091 223 2312"]
+    },
+    {"tag": "National Museum",
+      "patterns": [
+        "Jessie Can I know at what time The National Museum Colombo Opens?",
+        "what is the national museum opening time?",
+        "opening time of national museum",
+        "Details about national museum?"],
+      "responses": [
+        "Hi sure, Its 8.30 AM",
+        "It's 8.30 AM",
+        "National Museum Situated in the middle of colombo. Its opening time is 8.30 AM"]
+    },
+    {"tag": "restaurant",
+      "patterns": [
+        "Jessie can you get me three good Italian restaurants in ella." ],
+      "responses": [
+        "There are so many Italians are located in ella. Three of some are AK Ristoro, MozzarElla and Chef House."]
+    },
+    {"tag": "Galle railway",
+      "patterns": [
+        "Hey Jessie can I get galle railway station contact number?"],
+      "responses": [
+        "Yes Sure, The number is 94 91 223 2271  "]
+    },
+    {"tag": "Galle railway",
+      "patterns": [
+        "Hey Jessie can I get galle railway station contact number?"],
+      "responses": [
+        "Yes Sure, The number is 94 91 223 2271  "]
+    },
+    {"tag": "Sigiriya",
+      "patterns": [
+        "Hey Jessie can I get some details of Sigiriya Rock."],
+      "responses": [
+        "Sigiriya is an ancient rock fortress and palace built by king kashyapa during the regin of 473-495 which is standing majestically 660 feet strait up.It is located in the northern matale district near the town of Dambulla in central province of srilanka. "]
+    },
+    {"tag": "colombo railway",
+      "patterns": [
+        "Hey Jessie get me the contact number of colombo Fort railway station?"],
+      "responses": [
+        "The number is 94 11 2 432908 "]
+    },
+    {"tag": "kandy railway",
+      "patterns": [
+        "Hey Jessie get me the contact number of Kandy railway station?"],
+      "responses": [
+        "The contact number for kandy railway is 94 91 227 7222."]
+    },
+    {"tag": "Anuradhapura",
+      "patterns": [
+        "Hii Jessie what are the places we could travel in Anuradhapura?"],
+      "responses": [
+        "Check out the beautiful heritage City by visiting Mihintale,Jaya Sri Maha Bodhiya, Admire Isurumuniya, Ratna Prasada Guard stone, Kuttam pokuna(Twin pond), Moonstone of Abhayagiri Vihara, Ruwanweliseya StupaSa and madhi Buddha Statue. "]
+    },
+    {
+      "tag": "nuwara eliya police",
+      "patterns": [
+        "Hey Jessie, can I know the number of Nuwara Eliya Police Station? "
+      ],
+      "responses": [
+        "Yes here it is 056 7362234"
+      ]
+    },
+    {"tag": "Nuwaeliya places",
+      "patterns": [
+        "hey Jessie let me know some beautiful Destinations in nuwara Eliya "],
+      "responses": [
+        "You can visit Haggala gardens, Vitoria garden and also you can visit gegory lake. Enjoy your Tour!"]
+    },
+    {"tag": "Sri lanka places",
+      "patterns": [
+        "Hey Jessie tell me what are the most beautifull falls in Srilanka?"],
+      "responses": [
+        "Nuwara Eliya is one of the most exuberant places in sri lanka where you can spend some time amidst verdant greenery. You could visit Victoria park, Gregory Lake, Moon plains, Ambewela Farm, Ramboda Falls, St.Clair’s Falls,Laxapana Falls,Aberdeen Falls,Hakgala Botanical garden,Lipton Seat,  Bomburu Ella Falls , Devon Falls and Hortain Plains National park. "]
+    },
+    {"tag": "Sigiriya",
+      "patterns": [
+        "Hey Jessie can I know how much do they charge as entrance fee to sigiriya?"],
+      "responses": [
+        "Entrance fee is around Rs.469 for adults and Rs. 234 for kids. "]
+    },
+    {"tag": "Museum ",
+      "patterns": [
+        "Jessie, How many museums are there in Sri lanka? "],
+      "responses": [
+        "There are 16 museums in various parts in the country."]
+    },
+    {"tag": "Kandy train time ",
+      "patterns": [
+        "Jessie at what time I could get a train from Colombo to Kandy?"],
+      "responses": [
+        "You could pick train at 05.55 am, 07.00 am, 08.30 am, 09.00 am, 10.35 am, 12.40 pm, 15.35 pm, 16.35pm, 17.10 pm 17.45 pm daily."]
+    },
+    {"tag": "Kandy railway",
+      "patterns": [
+        "Hey Jessie get me the contact number of Kandy railway station?"],
+      "responses": [
+        "The number is 94 81 2222 271 "]
+    },
+    {"tag": "Ella Railway",
+      "patterns": [
+        "Hey Jessie get me the contact number of Ella railway station?"],
+      "responses": [
+        "The number is 94 57 2228 571 "]
+    },
+    {"tag": "ella police",
+      "patterns": [
+        "Hey jessie, can I get the contact number of Ella police station? "],
+      "responses": [
+        "The contact number for Ella police station is 94 57 2228 522"]
+    },
+    {"tag": "Kandy police",
+      "patterns": [
+        "Hey jessie, can I get the contact number of Kandy police station?"],
+      "responses": [
+        "The contact number for Kandy police station is 94 81 2222 222."]
+    },
+    {"tag": "Anuradha pura railway",
+      "patterns": [
+        "Hey Jessie can I get Anuradhapura railway station contact number?"],
+      "responses": [
+        " The contact number for Kandy police station is 94 81 2222 222."]
+    },
+    {"tag": "Sri lanka activities",
+      "patterns": [
+        "hey jessie what are the adventures activities we could do in srilankan? "],
+      "responses": [
+        "You could do snorkeling with whales in Mirissa,Leopard Safari Tour in Yala,Whale watching in Mrissa, Safari at Udawalawa national Park,Jet Ski in Bentota,Rafting at Kitulgala, Meemure camping, Surfing I Weligama, Snorkeling in Mirissa and Hikkaduwa, Flying Rawana in Ella."]
+    },
+    {"tag": "Sri Lanka Activities",
+      "patterns": [
+        "Hey Jessie tell me some awesome things to do in Srilanka? "],
+      "responses": [
+        "Hike Little Adams Peak, Ride the Kandy to Ella train, Trek through a Tea plantation in Nuwara Eliya, Go on Safari in Kaudulla National Park, Sunset at the Famous Rope swing in dalawella, Surf at Hikkaduwa, Hike to the top of Diyaluma Falls, Go Hiking in Riverston, Explore the markets, Hike to the top of Pidurangala rock, Climb Sigiriya, Visit Nine arche Bridge in Ella, A road trip along the south Coast, Explore Colombo city,. "]
+    },
+    {"tag": "nanu to ella",
+      "patterns": [
+        "Hey Jessie can I get the train schedule of Nanu oya to Ella?"],
+      "responses": [
+        "It starts at 5.30 p.m "]
+    },
+    {"tag": "train time",
+      "patterns": [
+        "Jessie at what time I could get a train from Colombo to Kandy?"],
+      "responses": [
+        "You could pick train at 05.55 am, 07.00 am, 08.30 am, 09.00 am, 10.35 am, 12.40 pm, 15.35 pm, 16.35pm, 17.10 pm 17.45 pm daily."]
+    },
+    {"tag": "adams peak",
+      "patterns": [
+        "Hey Jessie can you give me a brief description on Adams Peak?"],
+      "responses": [
+        "Adams Peak is a 2243m (7359 ft) tall conical mountain located in central Sri lanka. It is well known for the Sri Pada “Sacred Footprint”, a 1.8m rock formation near the summit, which in Buddhist tradition is held to be the footprint of the Buddha, in Hindu tradition that of Hanuman or shiva. "]
+    },
+    {"tag": "charges of anuradhapura ",
+      "patterns": [
+        "Jessie let me know the charges of Anuradhapura sightseeing?"],
+      "responses": [
+        "They charge USD 25 per person. "]
+    },
+    {"tag": "dambulla cave",
+      "patterns": [
+        "Hi Jessie, can I get some details of Dambulla Cave Temple?"],
+      "responses": [
+        "A sacred pilgrimage site for 22 centuries, this cave monastery, with its five sanctuaries, is the largest, best preserved cave-temple complex in Srilanka. The Buddhist mural paintings (covering an area of 2100 m2) are of particular importance, as are the 157 statues. "]
+    },
+    {"tag": "cultural show kandy",
+      "patterns": [
+        "Jessie at what time Kandy Cultural dance show starts at?"],
+      "responses": [
+        "It starts at 5.30 p.m "]
+    },
+    {"tag": "culturalshow",
+      "patterns": [
+        "Hey Jessie where we could watch Kandy Cultural dance Show? "],
+      "responses": [
+        "You could watch them at Young Men Buddhist Association and at Kandy Avanhala."]
+    },
+    {"tag": "Pinnawala time",
+      "patterns": [
+        "Hey Jessie what are the Bottle feeding Hours for baby elephants at Pinnawala Elephant orphanage? "],
+      "responses": [
+        "Bottle feeding is at 9.15 am, 1.15 pm and 5.00 pm."]
+    },
+    {"tag": "pinnawala bath",
+      "patterns": [
+        "Hi Jessie, What are the bathing times of elephants at Pinnawala Elephant orphanage?"],
+      "responses": [
+        "Bathing times at the river is at 10.00 am and 2.00 pm."]
+    },
+    {"tag": "Peradeniya botanical time",
+      "patterns": [
+        "Jessie can I know at what time Peradeniya Botanical Garden Opens?"],
+      "responses": [
+        "Monday to Saturday it opens at 08.00 am to 5.30 pm, Sundays 8.15 am to 5.30 pm. "]
+    },
+    {"tag": "bike renting",
+      "patterns": [
+        "Jessie does Hikkaduwa available scooter bike renting?"],
+      "responses": [
+        "Yes. They do have."]
+    },
+    {"tag": "whale watching",
+      "patterns": [
+        "Hey Jessie what is the Whale watching season in Sri Lanka?"],
+      "responses": [
+        "The Whale watching season in Sri lanka runs from November until April."]
+    },
+    {"tag": "spice gardens",
+      "patterns": [
+        "Jessie, where we could buy good Spices? Spice Garden or Super markets? "],
+      "responses": [
+        "We prefer the Spice Garden."]
+    },
+    {"tag": "hot springs",
+      "patterns": [
+        "Jessie let me know about Hot water springs in Sri Lanka?"],
+      "responses": [
+        "The Kanniya Hot sprins is a site with hot wells located in Trincomalee, Sri Lanka. There are seven wells in a suare shape. Wells are only 3-4 feet deep and you can clearly see the bottom. The temperature is considerably high but vary slightly from one spring to another. "]
+    },
+    {"tag": "yala safari ",
+      "patterns": [
+        "Hey Jessie what is the best time to go on Yala safari? "],
+      "responses": [
+        "For Birds watching we prefer Morning and for Leopard watching we prefer the evening. "]
+    },
+    {"tag": "gem factories ",
+      "patterns": [
+        "Jessie Where we could see Gem factories in Sri Lanka?"],
+      "responses": [
+        "You could see Gem factories in Kandy and Ratnapura."]
+    },
+    {"tag": "ceylon tea",
+      "patterns": [
+        "Jessie, Where we could purchase best Ceylon Tea?"],
+      "responses": [
+        "Nuwaraeliya."]
+    },
+    {"tag": "money exchange",
+      "patterns": [
+        "Hey Jessie, What is the best way to exchange currency? Bank or Money exchangers?"],
+      "responses": [
+        "It depends on the converting rate. But usually Money exchangers offer good prices."]
+    },
+    {"tag": "money exchanger",
+      "patterns": [
+        "Jessie it is safe to exchange currency at Money exchanger?"],
+      "responses": [
+        "You are always safe with licensed authorized Money dealers."]
+    },
+    {"tag": "service tip",
+      "patterns": [
+        "Jessie, Service tip is a must in Sri Lanka?"],
+      "responses": [
+        "No. It depends on you with the service you have been served."]
+    },
+    {"tag": "wood carving ",
+      "patterns": [
+        "Hey Jessie where we could see wood carving industry? "],
+      "responses": [
+        "You could see them in Kandy and Pollonnaruwa. "]
+    },
+    {"tag": "Anuradhapura",
+      "patterns": [
+        "Jessie, Is it allowed to go on sightseeing in Anuradhapura by bicycles?"],
+      "responses": [
+        "Yes. You are allowed."]
+    },
+    {"tag": "galelfort bike rent",
+      "patterns": [
+        "Hey Jessie? Is there places available to get Rent bicycles at Galle Fort.? "],
+      "responses": [
+        "Yes. You could rent bicycles at Galle Fort."]
+    },
+    {"tag": "elephant rides",
+      "patterns": [
+        "Jessie where we could find Elephant rides in Srilanka. "],
+      "responses": [
+        "Habarana."]
+    },
+    {"tag": "village tour",
+      "patterns": [
+        "hey Jessie, What is the best area to go on a village tour?"],
+      "responses": [
+        "We prefer Sigiriya."]
+    },
+    {"tag": "aryurvedic treatment",
+      "patterns": [
+        "Jessie, Where we could Find best aryurvedic treatments in Sri Lanka?"],
+      "responses": [
+        "Santani Luxury Ayurveda Retreat Kandy, Amuna Luxury Ayurveda retreat Sigiriya, Surya lanka Luxury Ayurveda retreat Talalla are some."]
+    }
+  ]}
+
